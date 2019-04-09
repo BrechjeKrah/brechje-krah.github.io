@@ -1,0 +1,291 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    color: rgb(0,0,255);
+    background-color: rgb(255,255,255);
+    overflow-y: hidden;
+}
+
+pre {
+  font-family: times;
+  font-size: 16px;
+}
+
+/*
+}
+
+div.scrollmenu 1 {
+    background-color: rgb(255);
+    overflow: hidden;
+    white-space: nowrap;
+    padding-top: 0px;
+    font: times;
+    position: fixed;
+    left: 700px;
+}
+
+div.scrollmenu 2 {
+    display: inline-block;
+    color: rgb(0,0,255);
+    padding: 10px;
+    font: times;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: rgb(0,0,255);
+}
+
+
+/* SCROLLING PANE START */
+
+/* hide the scrollbars */
+::-webkit-scrollbar {
+    display: block;
+    color: rgb(255,255,255);
+}
+
+#headers {
+  white-space: nowrap;
+}
+
+#header {
+  color: rgb(0,0,0);
+  font-size: 12px;
+  font-family: serif;
+  font: times;
+  text-align: middle;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  margin-left: 27px;
+  margin-top: 10px;
+  background-color: yellow;
+  border: 1px solid black;
+  border-radius: 400px;
+  border-spacing: 40px;
+  width: 700px;
+  overflow: hidden;
+}
+
+#header2{
+  color: rgb(0,0,0);
+  font-size: 16px;
+  font-style: black;
+  font-family: serif;
+  font: times;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  margin-left: 27px;
+  margin-top: 10px;
+  background-color: yellow;
+  border: 1px solid black;
+  border-radius: 400px;
+  border-spacing: 40px;
+  width: 1200px;
+}
+
+#scroll2 {
+  white-space: nowrap;
+}
+
+.scrolling-pane {
+  display: inline-block;
+  vertical-align: top;
+  height: 650px;
+  width: 400px;
+  margin-left: -15px;
+  margin-right: -40px;
+  margin-bottom: 0px;
+  overflow: scroll;
+  white-space: normal;
+}
+
+/* SCROLLING PANE END */
+
+.white-color {
+  background-color: rgb(0);
+  outline: 0px;
+  outline-style: solid;
+  outline-color: rgb(0,0,0);
+}
+
+.secondwhite-color {
+  background-color: rgb(0);
+  outline: 0px;
+  outline-style: solid;
+  outline-color: rgb(0,0,0);
+}
+
+.thirdwhite-color {
+  background-color: rgb(0);
+  outline: 0px;
+  outline-style: solid;
+  outline-color: rgb(0,0,0);
+}
+
+.fourthwhite-color {
+  background-color: rgb(0);
+  outline: 0px;
+  outline-style: solid;
+  outline-color: rgb(0,0,0);
+}
+
+.fifthwhite-color {
+  background-color: rgb(0);
+  outline: 0px;
+  outline-style: solid;
+  outline-color: rgb(0,0,0);
+}
+
+.sixthwhite-color {
+  background-color: rgb(0);
+  outline: 0px;
+  outline-style: solid;
+  outline-color: rgb(0,0,0);
+}
+
+.seventhwhite-color {
+  background-color: rgb(0);
+  outline: 0px;
+  outline-style: solid;
+  outline-color: rgb(0,0,0);
+}
+
+.eighthwhite-color {
+  background-color: rgb(0);
+  outline: 0px;
+  outline-style: solid;
+  outline-color: rgb(0,0,0);
+}
+
+.ninthwhite-color {
+  background-color: rgb(0);
+  outline: 0px;
+  outline-style: solid;
+  outline-color: rgb(0,0,0);
+}
+
+
+/* this is dummy content */
+.dummy-content {
+  width: 80%;
+  /* removed the fixed height. Now the div will be as long as the content
+  in it and thus the bottom-border will be below the text */
+  /* height: 500px; */
+  margin: 10px auto;
+  background-color: rgb(255);
+  border-bottom: 1px solid red;
+  border-top: 1px solid red;
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+  font: times;
+  font-size: 14px;
+  font-family: serif;
+  text-align: left;
+  padding: 15px;
+/*  text-indent: 10px;
+*/}
+
+.dummy-content img{
+  width:100%;
+
+}
+
+.text-content {
+  margin-top: 20px;
+}
+
+
+
+
+/* menu */
+ul {
+  list-style: none;
+}
+
+.menu-item {
+    background-color: black;
+    float: left;
+}
+
+.popup-item:hover {
+  cursor: pointer;
+  color: white;
+}
+
+/* specific location for the popups */
+
+#popup-glacier {
+  top: 30px;
+  left: 300px;
+}
+
+
+
+/* popup styling */
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  display: none;
+  z-index: 1 !important;
+  font-family: 'FGroteskDemi-Regular';
+  font-size: 15px;
+}
+
+.popup img {
+  position: absolute;
+  top:4%;
+  height: 92%;
+  z-index: 20;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.popup .bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0.8;
+  z-index: 10;
+}
+
+.info {
+  width: 50%;
+}
+
+.popup h1 {
+}
+
+.popup p {
+}
+
+.popup .artwork {
+  width: 100%;
+}
+
+.close-button {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background: url("button_close.png") no-repeat;
+  background-size: cover;
+  border: 1px solid rgba(255,255,255,0);
+  cursor: pointer;
+}
