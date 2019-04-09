@@ -67,7 +67,6 @@ div.scrollmenu a:hover {
   padding-bottom: 5px;
   margin-left: 27px;
   margin-top: 10px;
-  position: fixed;
   background-color: yellow;
   border: 1px solid black;
   border-radius: 400px;
@@ -88,7 +87,6 @@ div.scrollmenu a:hover {
   padding-bottom: 5px;
   margin-left: 27px;
   margin-top: 10px;
-  position: absolute;
   background-color: yellow;
   border: 1px solid black;
   border-radius: 400px;
